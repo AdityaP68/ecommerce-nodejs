@@ -19,6 +19,10 @@ form {
   display: inline;
 }
 
+.centered {
+  text-align: center;
+}
+
 .main-header {
   width: 100%;
   height: 3.5rem;
@@ -69,7 +73,6 @@ form {
   padding: 2rem 1rem 1rem 2rem;
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
-  display: none;
 }
 
 .mobile-nav.open {
@@ -201,12 +204,5 @@ form {
 
   #side-menu-toggle {
     display: none;
-  }
-
-}
-
-@media (max-width: 768px){
-  .mobile-nav {
-    display: block;
   }
 }
